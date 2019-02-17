@@ -2,10 +2,10 @@ package com.company;
 
 import java.util.Vector;
 
-public class VectorStack<E> implements Stack<E>{
+public class VectorPila<E> extends Pila<E>{
     private Vector<E> internalVector;
 
-    public VectorStack() {
+    public VectorPila() {
         internalVector = new Vector<>();
     }
 
